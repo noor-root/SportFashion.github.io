@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | SportFashion</title>
+    <link rel="stylesheet" href="decoration.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo3 (2).png">
+</head>
+<body>
+    <div class="hedr">
+      <div class="navbr">
+         <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/My_Video.mp4" type="video/mp4">
+         </video>
+         <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid1">
+            <a class="navbar-brand" href="#"><img src="images/log-website-remo.png" class="lg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse1" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse1 navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white active" href="./Home-page.html">Home</a>
+                </li>
+                <li class="nav-item dropdown bg-transparent">
+                  <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Section 
+                  </a>
+                  <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-dark" href="./women-sect.html">Women</a></li>
+                    <li><a class="dropdown-item text-dark" href="./men-sect.html">Men</a></li>
+                    <li><a class="dropdown-item text-dark" href="./Exercise-tools.html">Exercise Tools</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link text-white" href="./About.html">About</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link text-white" href="./contact-page.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./account-page.html">Account</a>
+                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./cart-page.html"><img src="images/petit-sac-shopping-remo.png" class="mag"></a>
+                 </li>
+              </ul>
+            </div>
+          </div>
+        
+            <div class="content">
+            <a href="#sect">Explore</a>
+         </nav>
+        </div>
+    </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+       <!--Js for toggle menu-->
+     <script>
+         var MenuItems = document.getElementById("MenuItems");
+         MenuItems.style.maxHeight = "0px";
+         function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+          }
+  </script>
+<!-------------------Section of our website:--------------------->
+   <div class="dif" id="sect">
+     <h2 class="title">Sections Of Our Site</h2>
+    </div>
+    <div class="categories">
+     <div class="small-container bgcontainer">
+      <div class="row slider">
+        <div class="colonne3 slide1">
+          <img src="images/jakes-women.png" alt="sport clothes for women" id="mg1">
+          <img src="images/sports shoes.png" alt="spaderie for women" id="mg2">
+          <p>Section For Women</p>
+        </div>
+        <div class="slide-nav">
+          <a href="#mg1"></a>
+          <a href="#mg2"></a>
+        </div>
+        <div class="colonne3 slide1">
+          <img src="images/sp-cl-men.png" alt="clothes for men" id="mg3">
+          <img src="images/shoes-men.png" alt="sportshoes men" id="mg4">
+          <p>Section For Men</p>
+        </div>
+        <div class="slide-nav">
+          <a href="#mg3"></a>
+          <a href="#mg4"></a>
+        </div>
+        <div class="colonne3 slide1">
+          <img src="images/Exercise-tools.png" alt="tools for sports" id="mg5">
+          <img src="images/tools-description.png" alt="things of sports" id="mg6">
+          <p>Section Tools Sports</p>
+        </div>
+        <div class="slide-nav">
+          <a href="#mg5"></a>
+          <a href="#mg6"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-------------------------------celebrity categories--------------------------------------------->
+  <div class="small-container" id="product1">
+    <h2 class="title">Recommended Articles</h2>
+    <div class="row">
+      <div class="colonne4 pro">
+        <img src="images/home1.jpeg">
+        <h4>Breathable men's sportswear set with pocket</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$32.49</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home3.jpeg">
+        <h4>Women's sports outfits</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$27.00</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home10.jpg">
+        <h4>men's running sports shoes</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$21.23</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home14.jpg">
+        <h4>small foam yoga mat</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$10.00</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home2.jpeg">
+        <h4>Men's 2-piece printed sports clothing set with sleeves</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$32.10</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/hom6.jpg">
+        <h4>Long Wear Tracksuit</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$29.23</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home16.jpg">
+        <h4>A Set Of Water Bottles For Water</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+        </div>
+        <p>$8.90</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home11.jpg">
+        <h4>men's sports shoes</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+        </div>
+        <p>$29.97</p>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------make ads to my website----------------------------------->
+  <div class="Ads">
+    <div class="text-ads">30% OFF</div>
+    <div class="pup"><img src="images/image-pup-rem.png"></div>
+    <video autoplay  loop plays-inline muted src="images/publicite.mp4" type="video/mp4" width="500px"
+      height="270px"></video>
+    <a href="women-sect.html" class="button1">Go to store</a>
+  </div>
+
+  <!----------------------Newest Articles--------------------------->
+  <div class="small-cintainer" id="product1">
+    <h2 class="title">Newest Articles</h2>
+    <div class="row">
+      <div class="colonne4 pro">
+        <img src="images/home13.jpg">
+        <h4>Weight Disc With Handles Set Of 30 KG</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$99.99</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home8.jpg">
+        <h4>sports shoes for women</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$80.00</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home13-13.jpeg">
+        <h4>WOMEN'S NIKE EVERYDAY LIGHTWEIGHT NO-SHOW TRAINING SOCKS</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$22.12</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home7.jpg">
+        <h4>sports shoes for women</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$44.30</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home5-5.jpg">
+        <h4>LEGACY LIFTING GLOVES</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+          <i class="fa-regular fa-star fa"></i>
+        </div>
+        <p>$10.00</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home18.jpeg">
+        <h4>NIKE SPORTSWEAR CLUB FLEECE CUFFED JOGGER PANTS</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+        </div>
+        <p>$55.67</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home9.jpg">
+        <h4>Sports Shoes For Women</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$28.99</p>
+      </div>
+      <div class="colonne4 pro">
+        <img src="images/home19.jpeg">
+        <h4>NIKE DUNK LOW RETRO CASUAL SHOES</h4>
+        <div class="icn">
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star fa"></i>
+          <i class="fa-solid fa-star-half-stroke fa"></i>
+        </div>
+        <p>$87.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------Some Banners----------------------------->
+  <section id="sm-banner" class="sect-p1">
+    <div class="bnr">
+      <h4>Fantastic Offers</h4>
+      <h2>Buy a Two-Piece Sports Set And Get Another Set For Free</h2>
+      <span>The Best Comfortable SportsWear Is On Sale At SportFashion </span>
+     <a href="men-sect.html" class="btn">Learn more</a>
+    </div>
+    <div class="bnr rnb">
+      <h4>Fantastic Offers</h4>
+      <h2>A New Season Of Chic</h2>
+      <span> Discover All The Latest Products For Your New Sports Routine </span>
+      <a href="women-sect.html" class="btn">Learn more</a>
+    </div>
+   </section>
+
+   <section id="sm-bnr">
+    <div class="bnr cl">
+      <h2>Periodic deal</h2>
+      <h3>Team Sports Gear/Running Attire</h3>
+    </div>
+    <div class="bnr rnb1">
+      <h2>Crazy Discounts</h2>
+      <h3>Yoga and Pilates / Running Gear</h3>
+    </div>
+    <div class="bnr rnb2">
+      <h2>Periodic deal</h2>
+      <h3>Team Sports Gear/Running Attire</h3>
+    </div>
+   </section>
+ 
+
+   <!--add our clients-->
+    <sesction class="section-container sect">
+     <h1>Our Partners</h1>
+     <div class="brnd">
+      <div class="colonne5 sect">
+        <img src="images/brand-adidas-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/amazone-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/newbalance-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/puma.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/rebook-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/decathlon.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/under-armor-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/columbia_logo-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/asics_logo-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/jordan-logo-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/yotube-logo-remo.png">
+      </div>
+      <div class="colonne5">
+        <img src="images/google-logo-remo.png">
+      </div>
+     </div>
+    </sesction>
+
+  <!--Add Testimonials-->
+  <div class="test">
+    <sesction class="section-container">
+      <h2>Testimonials</h2>
+      <h1>What our customers say</h1>
+      <div class="section-grid">
+        <div class="section-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <h4>Love the simplicity</h4>
+          <p>They inderstood our brand and created a strunning website design.
+            Professional, responsive, and on-time delivery. Highly recommended!
+          </p>
+          <img src="images/user2.png" alt="user">
+          <h5>Micheal Collins</h5>
+        </div>
+        <div class="section-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <h4>Excellent Design</h4>
+          <p>Efficient, reliable, and results-oriented.Visually appealing
+            website, improved online visibility. Highly recommended!
+          </p>
+          <img src="images/user1.png" alt="user">
+          <h5>Tanya Reiff</h5>
+        </div>
+        <div class="section-card">
+          <span><i class="fa-solid fa-quote-left"></i></span>
+          <h4>Efficient and Reliable</h4>
+          <p>Best decision we made.Strunning website, exceptinal support.Always
+            available and prompt issue resolution.Hassle-free experiencel
+          </p>
+          <img src="images/user3.png" alt="user">
+          <h5>Joseph Grant</h5>
+        </div>
+      </div>
+    </sesction>
+  </div>
+   
+
+
+  <!------------------------footer-------------------------->
+  <div class="footer">
+    <div class="foot">
+      <div class="rw">
+        <div class="foot-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Online Shop</h4>
+          <ul>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Exercise Tools</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Follow US</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="foot-col ft">
+         <h4>Install App</h4>
+         <small>From App Store or Google Play</small>
+         <div class="app-logo">
+          <img src="images/logo-play-store-remo.png" alt="logo-playstore">
+          <img src="images/app-store-logo-remo.png" alt="app-store-logo">
+         </div>
+         <small>Secured Payement Gateaways</small>
+        </div>
+          <div class="brnd ft">
+            <div class="colonne5">
+              <img src="images/mastercard-payement.svg">
+            </div>
+            <div class="colonne5">
+              <img src="images/visa-payement.svg">
+            </div>
+            <div class="colonne5">
+              <img src="images/amex-payement.svg">
+            </div>
+            <div class="colonne5">
+              <img src="images/paypal-payement.svg">
+            </div>
+            <div class="colonne5">
+              <img src="images/maestro-payement.svg">
+            </div>
+            <div class="colonne5">
+              <img src="images/klarna-payement.svg">
+            </div>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <small class="copyright">© 2024 All rights reserved. Designed by FPSt.</small>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
